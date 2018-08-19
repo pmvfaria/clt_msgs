@@ -3,6 +3,9 @@ uint8 SEEN=1
 uint8 OCCLUDED=2
 uint8 OUTOFRANGE=3
 
+uint8 LANDMARK_RANGE_BEARING=0
+
+uint8 type
 string label
 uint16 id
 uint8 robot
