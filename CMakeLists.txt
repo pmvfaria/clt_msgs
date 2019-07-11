@@ -6,6 +6,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs 
   geometry_msgs     
   nav_msgs
+  sensor_msgs
 )
 
 ## Generate messages in the 'msg' folder
@@ -15,6 +16,13 @@ add_message_files(
   MeasurementStamped.msg
   MeasurementArray.msg
   CustomOdometry.msg
+  Estimate.msg
+  RobotData.msg
+  TargetData.msg
+  GroundTruth.msg
+  Particles.msg
+  SubParticles.msg
+  SubParticle.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -28,6 +36,7 @@ generate_messages(
   std_msgs
   geometry_msgs     
   nav_msgs
+  sensor_msgs
 )
 
 catkin_package()

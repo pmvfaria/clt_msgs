@@ -1,0 +1,3 @@
+SubParticles[] robotSubparticles
+SubParticles[] targetSubparticles
+SubParticles weigthSubparticles

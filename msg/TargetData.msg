@@ -1,0 +1,7 @@
+Header header
+bool found
+geometry_msgs/Point32 targetPoint
+float32 BlobSize
+float32 blobXCenterPixel
+float32 blobYCenterPixel
+float32 mismatchFactor
