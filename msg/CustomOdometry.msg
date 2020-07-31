@@ -1,5 +1,5 @@
 Header header
-float64 translation
-float64 rot1
-float64 rot2
+float64 delta_translation
+float64 delta_yaw
+float64 pitch
 string state

@@ -12,14 +12,10 @@ uint16 id
 uint8 robot
 
 geometry_msgs/Point32 center
-geometry_msgs/Vector3 dimensions
 
-float32 range
-float32 bearing
+float64 distance
+float64 azimuth
+float64 elevation
 
 uint8 status
-float32 confidence
 float32 noise
-
-float32[] other_stats_labels
-float32[] other_stats_values

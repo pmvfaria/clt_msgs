@@ -13,16 +13,9 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   Measurement.msg
-  MeasurementStamped.msg
   MeasurementArray.msg
   CustomOdometry.msg
   Estimate.msg
-  RobotData.msg
-  TargetData.msg
-  GroundTruth.msg
-  Particles.msg
-  SubParticles.msg
-  SubParticle.msg
 )
 
 ## Generate services in the 'srv' folder
